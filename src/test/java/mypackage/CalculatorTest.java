@@ -10,7 +10,7 @@ public class CalculatorTest {
         final long result = new Calculator().addFucn(2, 3);
         assertThat(result, is(5L));
     }
-
+//java-sample
     @Test
     public void threeMinusTwoIsOne() throws Exception {
         final long result = new Calculator().subFucn(2, 3);
